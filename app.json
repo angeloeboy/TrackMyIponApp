@@ -1,6 +1,16 @@
 {
   "expo": {
     "scheme": "acme",
-    "web": { "bundler": "metro" }
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ed56b797-0ead-4075-ab70-9a96b29a43b8"
+      }
+    },
+    "android": {
+      "package": "com.angeloeboy.withrouter"
+    }
   }
 }
